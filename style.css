@@ -40,3 +40,36 @@ body {
     height: 400px;
     width: 400px;
 }
+
+.image2 {
+    display: flex;
+    background-image: url(factchecked_1.gif);
+    height: 240px;
+    width: 240px;
+    background-size: 100%;
+    transition: .2s;
+}
+
+.image2:hover {
+    height: 300px;
+    width: 300px;;
+}
+
+.imgBad {
+    display: flex;
+    background-image: url(badPicture.PNG);
+    height: 60px;
+    width: 218px;;
+    background-size: 100%;
+    transition: .2s;
+}
+
+.subBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
