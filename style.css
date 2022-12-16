@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    justify-content: center;
+    align-items: center;
+}
+
+.topBar {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color:aliceblue;
+    font: oblique;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    display: flex;
+    background-image: url(factchecked.gif);
+    height: 240px;
+    width: 240px;
+    background-size: 100%;
+    transition: .2s;
+}
+
+.image1:hover {
+    height: 400px;
+    width: 400px;
+}
