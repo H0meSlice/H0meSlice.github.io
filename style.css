@@ -4,6 +4,13 @@ body {
     background-color: #262626;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+.text {
+    color: white;
+    size: 14px;
+    margin: 20px;
 }
 
 .topBar {
@@ -11,57 +18,57 @@ body {
     margin-left: auto;
     margin-right: auto;
     color:aliceblue;
-    font: oblique;
+    font: oblique; 
 
     justify-content: center;
     align-items: center;
+}
+
+.topBar hr{
+    width: 400%;
+    color: white;
+}
+
+.horBar {
+    width: 90%;
+    color:white;
 }
 
 .mainBox {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
-    width: 400px;
+    height: 230px;
+    width: 230px;
     justify-content: center;
     align-items: center;
+    font-size: 50px;
+    text-shadow: -2px 1px black;
 }
 
-.image1 {
+.imageThumbnail {
     display: flex;
-    background-image: url(factchecked.gif);
-    height: 240px;
-    width: 240px;
-    background-size: 100%;
+    height: 200px;
+    width: 200px;
+    background-size: 70%;
     transition: .2s;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px 0px rgb(24, 24, 24);
+    margin: 20px;
 }
 
-.image1:hover {
-    height: 400px;
-    width: 400px;
+.imageThumbnail a {
+    border-radius: 20px;  
 }
 
-.image2 {
-    display: flex;
-    background-image: url(factchecked_1.gif);
-    height: 240px;
-    width: 240px;
-    background-size: 100%;
-    transition: .2s;
+.imageThumbnail:hover {
+    height: 230px;
+    width: 230px;
 }
 
-.image2:hover {
-    height: 300px;
-    width: 300px;;
-}
-
-.imgBad {
-    display: flex;
-    background-image: url(badPicture.PNG);
-    height: 60px;
-    width: 218px;;
-    background-size: 100%;
-    transition: .2s;
+.clickerGameIcon:hover {
+    height: 350px;
+    width: 350px;
 }
 
 .subBox {
@@ -72,4 +79,24 @@ body {
     width: 400px;
     justify-content: center;
     align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px 100px;
+    column-count: 3;
+
+    justify-content: center;
+}
+
+.grid-item h1 {
+    justify-content: center;
+    align-items: center;
+    padding: -100px;
+
+    color: white;
 }
